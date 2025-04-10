@@ -48,6 +48,7 @@ console.log(gh==23)
 let po ='31'
 console.log(typeof po)
 console.log(Number(po)*5-3)
+console.log(typeof po)
 
 let ii =[0,4,7,8]
 console.log(ii[3])
@@ -64,3 +65,24 @@ console.log(addd)
 console.log(addd.ciao)
 console.log(addd.tipo+addd.ciao)
 console.log(addd.ff[2])
+
+let nome ='Edoardo'
+let cognome =' Nuri'
+let completo = nome + cognome
+console.log (completo)
+
+let somma = '56'+'56'
+console.log(Number(somma)+1)
+console.log(typeof somma)
+
+let ds = 56
+let lkj = '11'
+let totale = lkj + ds.toString()
+console.log(totale)
+
+
+let gty = 'ciao a tutti '
+let rrr = 77
+let elemento = `${gty}${rrr.toString()}`
+
+console.log (elemento)
