@@ -48,3 +48,19 @@ console.log(gh==23)
 let po ='31'
 console.log(typeof po)
 console.log(Number(po)*5-3)
+
+let ii =[0,4,7,8]
+console.log(ii[3])
+
+let addd = {
+
+  tipo: 'squalo',
+  verso: 'animale',
+  ciao: 'drt',
+  ff: [0,1,2,4]
+}
+
+console.log(addd)
+console.log(addd.ciao)
+console.log(addd.tipo+addd.ciao)
+console.log(addd.ff[2])
