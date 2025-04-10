@@ -31,3 +31,20 @@ let jk = 13;
 jk++;
 console.log(jk);
 
+let aggiunta =[1,2,4]
+console.log(aggiunta)
+
+let gh = 13
+gh+=10
+console.log(gh)
+console.log(gh > 10)
+console.log(gh === 13)
+console.log(gh === 23)
+console.log(gh==13)
+gh= gh * 10 -10
+console.log(gh<13)
+console.log(gh==23)
+
+let po ='31'
+console.log(typeof po)
+console.log(Number(po)*5-3)
