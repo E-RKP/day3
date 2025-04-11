@@ -183,9 +183,93 @@ let gigauno = giga.split(" ")
 gigauno.splice(6, 3)
 console.log(gigauno)
 
-let love = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
-let gigus = love.split(' ')
-console.log(gigus)
+let film = Math.random()*(1378-1)+1;
+console.log(Math.floor(film))
+
+let variable = '30 Days of Challenge'
+console.log(variable)
+console.log(variable.length)
+console.log(variable.toUpperCase)
+console.log(variable.toLowerCase)
+console.log(variable.substring(1))
+console.log(variable.includes('script'))
+console.log(variable.includes('30'))
+let variable2= variable.split(" ")
+console.log(variable2)
+console.log(variable2[1])
+let variable3='Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+let variable31 = variable3.split(',')
+console.log(variable31)
+console.log(variable.replace('Challenge', 'Python'))
+console.log(variable.charAt(15))
+console.log(variable.indexOf('a'))
+let variable4 = 'You cannot end a sentence with because because because is a conjunction'
+let variaible41 = variable4.split(" ")
+console.log(variaible41)
+console.log(variaible41.indexOf('because'))
+console.log(variaible41.lastIndexOf('because'))
+console.log(variable4.search("because"))
+let variable5 = ' 30 Days of Challenge  '
+console.log(variable5.trim())
+console.log(variable.startsWith('3'))
+console.log(variable.endsWith('e'))
+console.log(variable.match('a'))
+console.log(variable.concat('30 Days Of JavaScript'))
+console.log(variable.repeat(3))
+
+let quote = "'There is no exercise better for the heart than reaching down and lifting people up.'"
+console.log(quote.concat(' By John Holmes teaches us to help one another.'))
+
+let nummber  = 10
+console.log(typeof nummber === typeof 10)
+let nummmber = '9.8'
+console.log( Math.round(Number(nummmber))===10)
+let codici = 'python'
+let codice = 'jargon'
+let q = codice.search('on')
+console.log(q != null)
+let risultante  = codici.search('on') == codice.search('on')
+console.log(risultante)
+let jargonn = 'I hope this course is not full of jargon'
+let jargon1 = jargonn.split(" ")
+let jargon2 = jargon1.indexOf("jargon")
+console.log(jargon2 >0)
+
+let generator = Math.random() * (100)
+console.log(Math.round(generator))
+
+let generator2 = Math.random() * (100-50)+50
+console.log(Math.round(generator2))
+
+let generator3 = Math.random()* (255)
+console.log(Math.round(generator3))
+
+console.log(generator == generator2 == generator3)
+
+let scriptum = "Javascript"
+let scriptum1 = Math.round(Math.random()* scriptum.length);
+console.log(scriptum[scriptum1])
+
+let taglio = 'You cannot end a sentence with because because because is a conjunction'
+let taglio1 = taglio.split(' ')
+console.log(taglio1)
+let taglio2 = taglio1.splice(0,6)
+let taglio3 = 'You cannot end a sentence with because because because is a conjunction'
+let taglio4 = taglio3.split(' ')
+let taglio5 = taglio4.splice (9,4)
+console.log(taglio2.concat(taglio5))
+
+let countare = (taglio.match(/because/g))
+console.log(countare.length)
+
+let sostituo = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+
+let sostituto1 = sostituo.replace('%', " ")
+let sostituto2 = sostituto1.replace ('$', " ")
+let sostituto3 = sostituto2.replace('@', ' ')
+let sostituto4 = sostituto3.replace('#', ' ')
+console.log(sostituto4)
+
 
 
 
